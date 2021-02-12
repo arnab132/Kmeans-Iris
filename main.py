@@ -18,7 +18,7 @@ for i in range(1, 11):
     
 #Plotting the results onto a line graph, allowing us to observe 'The elbow'
 plt.plot(range(1, 11), wcss)
-plt.title('The elbow method')
+plt.title('Elbow method')
 plt.xlabel('Number of clusters')
 plt.ylabel('WCSS') #within cluster sum of squares
 plt.show()
