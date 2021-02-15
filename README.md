@@ -19,12 +19,15 @@ The above algorithm in pseudocode:
 Initialize k means with random values
 
 For a given number of iterations:
+
     Iterate through items:
+    
         Find the mean closest to the item
         Assign item to mean
         Update mean
      
 Some facts about k-means clustering:
+
 K-means converges in a finite number of iterations. Since the algorithm iterates a function whose domain is a finite set, the iteration must eventually converge.
 The computational cost of the k-means algorithm is O(k*n*d), where n is the number of data points, k the number of clusters, and d the number of attributes.
 Compared to other clustering methods, the k-means clustering technique is fast and efficient in terms of its computational cost.
